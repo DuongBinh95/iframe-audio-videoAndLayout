@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AudioAndVideo</title>
+    <style>
+        .content-left{
+            width: 49%;
+            float: left;
+            background: #ccc;
+        }
+        .content-right{
+            width: 49%;
+            float: right;
+            background: #ccc;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <!--content-left-->
+    <div class="content-left">
+        <h1>AUDIO</h1>
+        <h3>Demo audio</h3>
+        <audio controls>
+            <source src="uploads/Walk-Away-Toc-Tien.mp3" type="audio/mp3">
+        </audio><br/>
+        <h3>Demo audio thuoc tinh autoplay</h3>
+        <audio autoplay controls>
+            <source src="uploads/Walk-Away-Toc-Tien.mp3" type="audio/mp3">
+        </audio><br/>
+        <h3>Demo audio thuoc tinh autobuffer </h3>
+        <audio autobuffer controls>
+            <source src="uploads/Walk-Away-Toc-Tien.mp3" type="audio/mp3">
+        </audio><br/>
+        <h3>Demo audio thuoc tinh loop</h3>
+        <audio loop controls>
+            <source src="uploads/Walk-Away-Toc-Tien.mp3" type="audio/mp3">
+        </audio><br/>
+        <h3>Demo audio thuoc tinh preload</h3>
+        <audio preload="auto" controls>
+            <source src="uploads/Walk-Away-Toc-Tien.mp3" type="audio/mp3">
+        </audio><br/>
+
+    </div>
+
+    <!--content-right-->
+    <div class="content-right">
+        <h1>VIDEO</h1>
+        <video width="100%" height="400px" controls>
+            <source src="http://www.w3schools.com/tags/movie.mp4" type="video/mp4">
+        </video>
+    </div>
+</div>
+</body>
+</html>
