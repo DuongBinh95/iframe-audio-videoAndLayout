@@ -1,0 +1,27 @@
+body{
+    font-family: Arial;
+    font-size: 0.9em;
+}
+head {
+    padding: 10px;
+    color: #F8F8FF;
+    border: 1px solid black;
+}
+nav ul{
+    padding: 0px;
+}
+nav ul li{
+    display: inline;
+    margin: 10px;
+}
+section{
+    margin: 5px;
+    padding : 10px;
+    background-color: #cccccc;
+}
+article{
+
+    margin: 5px;
+    padding: 10px;
+    background-color: #F8F8FF;
+}
